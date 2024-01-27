@@ -1,6 +1,8 @@
 CC = g++
 CFLAGS = -std=c++2a -Wall -Wextra -pedantic -g 
 
+.DEFAULT_GOAL := main
+
 main: main.o helper.o 
 	$(CC) -o main main.o helper.o 
 
