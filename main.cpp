@@ -6,7 +6,7 @@ int main() {
     ifstream file = open_file("words.txt");
     unordered_set<string> dictionary;
     load_dictionary(dictionary, file);
-
+    cout << endl;
     // query the user for words, and check if in dictionary/closest existent words
     while (1) {
       user_interaction(dictionary);

@@ -21,7 +21,7 @@ void print_dictionary(unordered_set<string>& dictionary);
 
 vector<pair<string, int> > find_neighbors(string word, unordered_set<string>& dictionary);
 
-void print_vector(vector<pair<string, int> >& neighbors);
+void print_matches(vector<pair<string, int> >& neighbors);
 
 void user_interaction(unordered_set<string>& dictionary);
 
